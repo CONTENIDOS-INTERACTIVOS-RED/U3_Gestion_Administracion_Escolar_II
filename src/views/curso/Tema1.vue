@@ -99,7 +99,7 @@
             p(data-aos="fade-left").mb-4 A continuación, se presenta un podcast que expone de manera clara y estructurada los principios fundamentales de la educación inclusiva, enmarcados en el Decreto 1421 de 2017, con el fin de orientar la práctica pedagógica hacia entornos más justos, participativos y centrados en la diversidad.
     
             TarjetaAudio.color-acento-botones.bg-color-white.mb-3(
-              texto="Fundamentos de la innovación estratégica"
+              texto="Principios de la educación inclusiva"
               tiempo
               :audio="require('../../assets/curso/podcast/podcast1.mp3')"
             )
