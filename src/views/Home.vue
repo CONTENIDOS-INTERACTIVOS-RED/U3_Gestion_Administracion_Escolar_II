@@ -104,7 +104,7 @@ export default {
         background-color: $color-acento-botones
         padding: 12px 42px 12px 32px
         width: 100%
-        color: #fff !important
+        color: $color-sistema-texto !important
     .icon
       background-color: $color-sistema-e
       padding: 0px 20px
