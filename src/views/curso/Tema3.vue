@@ -298,15 +298,36 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/274611" target="_blank" rel="noopener noreferrer") De Castro Emilio Cerdá, F. J. A. L. M. (s/f). Las energías renovables en el ámbito internacional. Revistasice.com. 
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/51751" target="_blank" rel="noopener noreferrer") Moliner García, O. (2013). Educación inclusiva: ( ed.). Universitat Jaume I. Servei de Comunicació i Publicacions.  
+
+
 
             p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span De Janeiro, R. (1992). La declaración del Río sobre el Medio Ambiente y el Desarrollo. Río de Janeiro República Federativa del Brasil., aprobada en Estocolmo el, 16.
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://dialnet.unirioja.es/servlet/articulo?codigo=7212292 " target="_blank" rel="noopener noreferrer") Bonilla, N. I. M. (2017). Ajustes razonables y derechos humanos: una perspectiva de equidad, dignidad y trascendentalidad en la inclusión educativa. Heurística: revista digital de historia de la educación, (20), 2. 
+
+ 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://dialnet.unirioja.es/descarga/articulo/4868164.pdf " target="_blank" rel="noopener noreferrer") Martínez, B. (2013). Pobreza, discapacidad y derechos humanos. 
+
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=uD2FOY2m4tU " target="_blank" rel="noopener noreferrer") DescLAB. (2019, 30 de agosto). LAB Webinar - PIAR 01 - Por qué un plan individual de ajustes razonables [Video]. YouTube. 
+
+ 
 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://youtu.be/QKLjwCMyv3M?si=uAWhO9tnyghljaJg" target="_blank" rel="noopener noreferrer") Innovación y sostenibilidad.
+              a(href="https://www.youtube.com/watch?v=uD2FOY2m4tU " target="_blank" rel="noopener noreferrer") DescLAB. (2019, 30 de agosto). LAB Webinar - PIAR 01 - Por qué un plan individual de ajustes razonables [Video]. YouTube. 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=Oyf-AL-qTu" target="_blank" rel="noopener noreferrer") Universidad Continental. (2021, 7 de mayo). Accesibilidad, diseño universal y ajustes razonables [Video]. YouTube. w 
+
+ 
+
+
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure
@@ -332,29 +353,32 @@ export default {
         preguntas: [
           {
             id: 1,
-            texto:
-              '¿Cuál de las siguientes es una característica fundamental de los derechos humanos?',
+            texto: '¿Cuál es el objetivo principal del Decreto 1421 de 2017?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Son temporales y cambiantes',
+                texto:
+                  'Establecer estándares curriculares únicos para todo el país.Son temporales y cambiantes',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Son universales y aplican a todas las personas',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Son exclusivos de ciertos grupos',
+                texto:
+                  'Promover el uso exclusivo de metodologías tradicionales.',
                 esCorrecta: false,
               },
               {
+                id: 'c',
+                texto:
+                  'Regular la atención educativa a estudiantes con discapacidad en el marco de la educación inclusiva. ',
+                esCorrecta: true,
+              },
+              {
                 id: 'd',
-                texto: 'Son opcionales',
+                texto:
+                  'Eliminar la participación de la familia en los procesos educativos.',
                 esCorrecta: false,
               },
             ],
@@ -364,28 +388,30 @@ export default {
           {
             id: 2,
             texto:
-              '¿Cuál de las siguientes afirmaciones sobre la diversidad cultural es correcta?',
+              '¿Cuál de los siguientes enunciados refleja un principio del Diseño Universal para el Aprendizaje (DUA)?¿Cuál de las siguientes afirmaciones sobre la diversidad cultural es correcta?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Fomenta la homogeneización cultural',
+                texto:
+                  'Enseñar con un único método para facilitar la evaluación.',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Promueve el respeto y la aceptación de las diferencias',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Debilita la identidad cultural de los pueblos',
+                texto: 'Estandarizar las respuestas de todos los estudiantes.',
                 esCorrecta: false,
               },
               {
+                id: 'c',
+                texto:
+                  'Ofrecer múltiples formas de representación, expresión y compromiso. ',
+                esCorrecta: true,
+              },
+              {
                 id: 'd',
-                texto: 'Limita las oportunidades de interacción',
+                texto: 'Fomentar la competitividad como base del aprendizaje.',
                 esCorrecta: false,
               },
             ],
@@ -394,29 +420,28 @@ export default {
           },
           {
             id: 3,
-            texto:
-              'La mediación en un conflicto tiene como objetivo principal:',
+            texto: '¿Qué componente NO pertenece al PIAR?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Imponer una solución rápida',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Facilitar el diálogo entre las partes',
+                texto: 'Planificación de vacaciones escolares.  ',
                 esCorrecta: true,
               },
               {
+                id: 'b',
+                texto: 'Propuesta de ajustes razonables.',
+                esCorrecta: false,
+              },
+              {
                 id: 'c',
-                texto: 'Determinar la culpabilidad',
+                texto: 'Caracterización del estudiante.',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Ignorar las preocupaciones de una parte',
+                texto: 'Seguimiento a los apoyos pedagógicos.',
                 esCorrecta: false,
               },
             ],
@@ -425,28 +450,29 @@ export default {
           },
           {
             id: 4,
-            texto: 'En un foro comunitario, es importante:',
+            texto:
+              'Según la Ley 1098 de 2006, ¿quiénes son responsables de garantizar el derecho a la educación de los niños y niñas?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Escuchar solo a las autoridades',
+                texto: 'Solo los docentes.',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Fomentar la participación de todos los miembros',
+                texto: 'La familia, la sociedad y el Estado. ',
                 esCorrecta: true,
               },
               {
                 id: 'c',
-                texto: 'Decidir por votación sin consultar a los demás',
+                texto: 'Los estudiantes únicamente.',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Excluir las opiniones de los más jóvenes',
+                texto: 'Las instituciones privadas.',
                 esCorrecta: false,
               },
             ],
@@ -455,29 +481,31 @@ export default {
           },
           {
             id: 5,
-            texto:
-              '¿Qué busca la justicia restaurativa en el contexto de un conflicto?',
+            texto: '¿Qué relación existe entre el DUA y el PIAR?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Aplicar una sanción severa',
+                texto:
+                  'El PIAR se aplica únicamente cuando el DUA no funciona.a',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Reparar el daño y restablecer las relaciones',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Castigar a las partes involucradas',
+                texto: 'El DUA es una estrategia excluyente del PIAR.',
                 esCorrecta: false,
               },
               {
+                id: 'c',
+                texto:
+                  'El PIAR complementa al DUA al proponer ajustes específicos para estudiantes que los requieren. ',
+                esCorrecta: true,
+              },
+              {
                 id: 'd',
-                texto: 'Ignorar el contexto del conflicto',
+                texto:
+                  'Ambos documentos son idénticos y se usan indistintamente',
                 esCorrecta: false,
               },
             ],
